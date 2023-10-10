@@ -1,0 +1,159 @@
+<html>
+<head>
+    <title>francisco san grants</title>
+    <meta name="description" content="grants to make the ccsf more whimsical ">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.franciscosan.org">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="francisco san grants">
+    <meta property="og:description" content="grants to make the ccsf more whimsical">
+
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:domain" content="aigrant.org">
+    <meta property="twitter:url" content="https://www.franciscosan.org">
+    <meta name="twitter:title" content="francisco san grants">
+    <meta name="twitter:description" content="grants to make the ccsf more whimsical">
+
+
+    <meta name="description" content="grants to make the ccsf more whimsical">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="http://franciscosan.org">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&family=Rouge+Script&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            line-height: 1.4;
+            font-size: 16px;
+            padding: 10px 30px 25px 30px;
+            margin: 25px auto;
+            max-width: 650px;
+			font-family: 'Inter Tight', sans-serif;
+        }
+
+        h1 {
+        	font-family: 'Rouge Script', cursive;
+        	font-size: 64px;
+        	margin-bottom: 0;
+        }
+
+		#random-idea {
+			display:inline-block;
+			padding: 10px;
+			border-radius:3px;
+			width: 100%;
+		    box-sizing: border-box;
+			border: 2px dotted #fff;
+			background:
+			linear-gradient(#fff 0 0) padding-box,
+			linear-gradient(199deg, rgba(31,33,77,1) 0%, rgba(80,54,111,1) 15%, rgba(191,52,117,1) 38%, rgba(238,108,69,1) 63%, rgba(255,206,97,1) 83%, rgba(255,229,138,1) 100%) border-box;
+		}
+
+		body {
+			border-image: linear-gradient(180deg, rgba(31,33,77,1) 0%, rgba(80,54,111,1) 15%, rgba(191,52,117,1) 38%, rgba(238,108,69,1) 63%, rgba(255,206,97,1) 83%, rgba(255,229,138,1) 100%) 30;
+			border-width: 20px;
+			border-style: solid;
+		}
+
+    </style>
+
+</head>
+<body>
+<h1>francisco san grants</h1>
+<p>
+francisco san is a twenty-five thousand dollar (and possibly expanding) fund to make the city and county of san francisco more whimsical through eventures and installations.
+</p>
+
+<p>
+grantees can be for parties, pop-ups, puzzle hunts, art, races, (un)conferences, distribution of interesting objects or anything in between. the only requirement is to have a physical component in the city and county of san francisco.
+</p>
+
+<p>
+here is an example of the kind of project that might be funded, refresh for a new one!
+</p>
+
+<div id="random-idea">[enable javascript]</div>
+
+<p>
+<b>how do i/we apply for a grant?</b></br>
+fill out <a href="https://airtable.com/appTbwDK7pCbIL15x/shrjUlC1eMpHeZwbW">this form</a>!
+</p>
+
+<p>
+<b>will i/we get a rejection email?</b>
+</br>
+yes, but only if an email is provided.
+</p>
+
+<p>
+<b>what can i/we spend the money on?</b>
+</br>
+materials, apparatus, transportation, renting space, hiring people, paying yourselves! just, be reasonable?
+</p>
+
+<p>
+<b>does francisco san need anything in return?</b>
+</br>
+please just do the thing well!
+</p>
+
+<p>
+<b>how large are grants?</b>
+</br>
+grants can be anywhere from zero to eighteen thousand dollars.
+</p>
+
+<p>
+<b>how will i/we receive the grant?</b>
+</br>
+if there’s interest after the application, there’ll be a varying amount of follow-up depending on the nature of the project. if funds are required upfront they will be provided upfront, which can be a venmo transfer, wire transfer or charitable donation (if applicable). budget shifts of a 50% difference are both likely to happen and likely to be reasonable and will be accommodated, though it’s also requested that money be returned if under budget.
+</p>
+
+<p>
+<b>how can i hear about franciso san projects?</b>
+</br>
+they’ll be updated on this website when applicable
+</p>
+
+<p>
+<b>can i contribute to the francisco san fund?</b></br>
+yes! reach out to admin@franciscosan.org. currently we are more limited by producers than money, but pledges of more money are appreciated.
+</p>
+
+<p>
+<b>can it be a ___?</b>
+</br>
+yes.
+</p>
+
+</body>
+
+
+<script>
+	(function newIdea() {
+	  var facts = [
+	  	'a dumpling passport where you can get stamps for visiting all the dumpling [location]s in the ccsf',
+	  	'a lightning talk conference where most of the attendees are also speakers',
+	  	'redesign the muni map and provide free copies at stations',
+	  	'set up a city-wide puzzle hunt by spontaneously putting up posters with puzzles',
+	  	'mass funeral for startups',
+	  	'throw a party where everyone takes a pill and declares a placebo',
+	  	'anything by chris arvin or danielle baskin',
+	  	'some sort of light show',
+	  	'papier-mache replication of the city’s hills',
+	  	'tiny fence for the sliver of sf that is in alameda',
+	  	'throw a party where everyone is given the profile of someone else at the party, whom they will pretend to be',
+	  	'handing out burritos in exchange for singing a song (with mic) in dolores',
+	  ];
+	  var randomFact = Math.floor(Math.random() * facts.length);
+	  document.getElementById('random-idea').innerHTML = facts[randomFact];
+	})();
+
+</script>
+
+
+</html>
